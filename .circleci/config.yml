@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   hello_world:
     docker:
-      - image: "cimg/base"
+      - image: "cimg/base:2020.01"
     steps:
       - run: "echo 'Hello World!'"
 workflows:
